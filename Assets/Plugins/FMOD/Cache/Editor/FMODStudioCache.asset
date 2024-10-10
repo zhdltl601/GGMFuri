@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8382303296274779244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicTest/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3007554428
+    data2: 2650628115
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Range
+  - Combat
+  Exists: 1
+--- !u!114 &-7267126047499038395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MusicTest
+  m_EditorClassIdentifier: 
+  Path: event:/MusicTest
+  Guid:
+    Data1: -599280432
+    Data2: 1214911239
+    Data3: 491786133
+    Data4: 1975252685
+  Banks:
+  - {fileID: 3891258693785764737}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8382303296274779244}
+  - {fileID: 5604465924035289638}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1102056
+--- !u!114 &-4000185613289411670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: parameter:/MusicTest/Parameter 1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3007554428
+    data2: 2650628115
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Range
+  - Combat
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 657371718186695324}
+  - {fileID: 3891258693785764737}
+  EditorEvents:
+  - {fileID: -7267126047499038395}
+  EditorParameters:
+  - {fileID: 4363806876297936423}
+  - {fileID: -4000185613289411670}
+  MasterBanks:
+  - {fileID: 3891258693785764737}
+  StringsBanks:
+  - {fileID: 657371718186695324}
+  cacheTime: 638566012008907700
+  cacheVersion: 131618
+--- !u!114 &657371718186695324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/_FMODBuild/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638566012008907700
+  FileSizes:
+  - Name: 
+    Value: 868
+  Exists: 1
+--- !u!114 &3891258693785764737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/_FMODBuild/Desktop/Master.bank
+  Name: Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 638566012008892315
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4363806876297936423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Phase
+  m_EditorClassIdentifier: 
+  Name: Phase
+  StudioPath: parameter:/MusicTest/Phase
+  Min: 0
+  Max: 7
+  Default: 1
+  ID:
+    data1: 3813647513
+    data2: 3852343566
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Intro
+  - 1
+  - 2
+  - 3
+  - No
+  - 4
+  - 5
+  - 6
+  Exists: 1
+--- !u!114 &5604465924035289638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicTest/Phase
+  m_EditorClassIdentifier: 
+  Name: Phase
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 1
+  ID:
+    data1: 3813647513
+    data2: 3852343566
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Intro
+  - 1
+  - 2
+  - 3
+  - No
+  - 4
+  - 5
+  - 6
+  Exists: 1
